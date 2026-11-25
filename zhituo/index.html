@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="description" content="跨境智拓，客户机会与方案工作台离线原型。">
+ <title>跨境智拓 · 客户机会与方案工作台</title>
+ <link rel="stylesheet" href="workbench.css">
+ <link rel="stylesheet" href="opportunity.css">
+ <script defer src="growth-data.js"></script>
+ <script defer src="opportunity-engine.js"></script>
+ <script defer src="opportunity-app.js"></script>
+</head>
+<body>
+ <div class="shell">
+  <aside class="rail">
+   <a href="#overview" class="brand" aria-label="跨境智拓 首页"><span class="brand-mark">拓</span><span>跨境智拓<small>CROSS-BORDER GROWTH</small></span></a>
+   <div class="nav-label">业务管理</div><nav id="nav" aria-label="主导航"></nav>
+   <div class="rail-footer"><b><i></i> 隔离演示空间</b><small>仅使用虚构资料<br>不调用真实业务接口</small></div>
+  </aside>
+  <div class="workspace">
+   <header class="topbar"><div class="crumb">跨境业务增长 <span>/</span> <b id="crumb">增长看板</b></div><div class="top-actions"><span class="badge green">本地演示</span><button class="quiet" type="button" data-action="reset">重置演示</button><span class="user-dot" title="演示操作员">演</span></div></header>
+   <div class="global-note">虚构数据 · Agent为离线规则模拟 · 不发送客户消息、不执行真实开卡或资金操作</div>
+   <main id="main"></main>
+   <footer>跨境智拓 / 客户机会与方案工作台 <span>v5.8 · 本机模拟</span></footer>
+  </div>
+ </div>
+ <dialog id="dialog" aria-labelledby="dialog-title"></dialog>
+ <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

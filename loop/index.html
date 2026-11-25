@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="LAKALA LOOP 从业务交易到分时备款建议的交互演示，全程合成数据。">
+  <title>LAKALA LOOP · 跨境资金管理</title>
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="loop-v02.css">
+  <link rel="stylesheet" href="ops-v06.css">
+  <link rel="stylesheet" href="loop-v07.css">
+  <link rel="stylesheet" href="loop-v08.css">
+  <link rel="stylesheet" href="loop-v10.css">
+  <link rel="stylesheet" href="loop-v11.css">
+  <link rel="stylesheet" href="loop-v12.css">
+  <link rel="stylesheet" href="loop-v13.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="rail">
+      <a class="brand" href="#overview" aria-label="LAKALA LOOP 首页"><span class="brand-mark">L</span><span>LAKALA<span class="brand-soft"> LOOP</span><small>LIQUIDITY OPERATIONS</small></span></a>
+      <div class="rail-label">资金管理</div>
+      <nav id="sideNav" aria-label="主要页面"></nav>
+      <div class="rail-foot"><i></i><b>隔离演示空间</b><p>从零合成的数据<br>没有真实资金操作</p><span>SIMULATION ONLY</span></div>
+    </aside>
+    <div class="main-column">
+      <header class="topbar">
+        <div class="crumb"><span>跨境资金运营</span><b>/</b><strong id="crumb">今日总览</strong></div>
+        <div class="top-actions"><span class="date-pill">合成演示日 · 10:00</span><span class="sandbox-pill"><i></i> 合成数据</span><button id="resetButton" class="quiet">重置演示</button><span class="user-dot">演</span></div>
+      </header>
+      <div class="notice-strip"><span>演示环境</span> 虚拟数据 · AI及资金操作均为离线模拟 · 金额与工时为演算，非公司已实现成果</div>
+      <main id="view" tabindex="-1"></main>
+      <footer>LAKALA LOOP / 跨境资金管理　<span>v0.14 · 本地演示环境</span></footer>
+    </div>
+  </div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="ops-v06.js"></script>
+  <script src="loop-v02.js"></script>
+  <script src="loop-v07.js"></script>
+  <script src="loop-v08.js"></script>
+  <script src="loop-v10.js"></script>
+  <script src="loop-v11.js"></script>
+  <script src="loop-v12.js"></script>
+  <script src="loop-v13.js"></script>
+</body>
+</html>
